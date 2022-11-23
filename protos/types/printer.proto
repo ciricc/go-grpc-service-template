@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Ciricc.Printer;
+
+option go_package = "github.com/ciricc/go-grpc-service-template/pkg/genproto/Printer_V1";
+option java_package = "com.ciricc.printer.v1";
+
+message PrintRequest {
+    string message = 1;
+}
+
+message PrintResponse {}
